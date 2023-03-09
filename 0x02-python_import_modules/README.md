@@ -1,9 +1,9 @@
-#0x02. Python - import & modules
+# 0x02. Python - import & modules
 
 
-##Requirements
+## Requirements
 
-General
+### General
 
 Allowed editors: vi, vim, emacs
 
