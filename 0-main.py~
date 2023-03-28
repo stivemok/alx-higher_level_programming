@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+square = __import__('0-square').Square
+
+my_square = Square()
+print(my_square.__dic__)
