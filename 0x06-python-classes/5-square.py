@@ -3,6 +3,8 @@
 
 
 class Square:
+    """Square class"""
+
     def __init__(self, size=0):
         """Sets the size of the square on instantation
         Throws an error if the size called with it is not an integer
@@ -11,6 +13,7 @@ class Square:
         Raises:
         TypeError: when the value passed in it is not an integer
         ValueError: when the value passed in is less than 0"""
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
