@@ -1,0 +1,21 @@
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name(stive, mok)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'stive' is not defined
+>>> say_my_name("stive", "mok")
+My name is stive mok
+>>> say_my_name("stive", "10")
+My name is stive 10
+>>> say_my_name("stive", 10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/root/alx-higher_level_programming/0x07-python-test_driven_development/3-say_my_name.py", line 14, in say_my_name
+    raise TypeError("last name must be a string")
+TypeError: last name must be a string
+>>> Mdoc = __import__('3-say_my_name').__doc__
+>>> len(Mdoc) > 5
+True
+>>> Fdocs = say_my_name.__doc__
+>>> len(Fdocs) > 5
+True
