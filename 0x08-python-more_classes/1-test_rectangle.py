@@ -6,8 +6,7 @@ The Rectangle Module:
 
 class Rectangle:
     """
-    Rectangle class:
-    it has two attributes width and height
+    Rectangle class
     """
     def __init__(self, width=0, height=0):
         if not isinstance(width, int) or not isinstance(height, int):
