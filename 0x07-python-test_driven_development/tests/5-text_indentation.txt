@@ -1,0 +1,52 @@
+>>> text_indentation = __import__("5-text_indentation").text_indentation
+>>> t = "I am from ALX. Am i a good student? Study hard: Do hard things."
+>>> text_indentation(t)
+I am from ALX.
+
+Am i a good student?
+
+Study hard:
+
+Do hard things.
+
+>>> text_indentation("stive mok")
+stive mok>>> text_indentation("Do hard things!")
+Do hard things!>>> t="Hello. : \nI am a string? .\n"
+>>> text_indentation(t)
+Hello.
+
+:
+
+
+I am a string?
+
+.
+
+
+>>> text_indentation()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+>>> text_indentation("stive", "mok")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: text_indentation() takes 1 positional argument but 2 were given
+>>> text_indentation(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/root/alx-higher_level_programming/0x07-python-test_driven_development/5-text_indentation.py", line 11, in text_indentation
+    raise TypeError("text must be a string")
+TypeError: text must be a string
+>>> text_indentation(-1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/root/alx-higher_level_programming/0x07-python-test_driven_develop\
+ment/5-text_indentation.py", line 11, in text_indentation
+    raise TypeError("text must be a string")
+TypeError: text must be a string
+>>> text_indentation(None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/root/alx-higher_level_programming/0x07-python-test_driven_development/5-text_indentation.py", line 11, in text_indentation
+    raise TypeError("text must be a string")
+TypeError: text must be a string
