@@ -8,9 +8,9 @@
 
 [* Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
 
-[Inheritance in Python](https://www.w3schools.com/python/python_inheritance.asp)
+[* Inheritance in Python](https://www.w3schools.com/python/python_inheritance.asp)
 
-[Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
+[* Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
 ## General
 Why Python programming is awesome
@@ -103,4 +103,18 @@ Write a class MyList that inherits from list:
 
 * You can assume that all the elements of the list will be of type int
 
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./1-main.py 
+[1, 4, 2, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 4, 2, 3, 5]
+
+----
+
+### 2. Exact same object - mandatory
+Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.
+
+* Prototype: def is_same_class(obj, a_class):
 * You are not allowed to import any module
