@@ -127,3 +127,20 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./2-ma
 1 is an instance of the class int
 
 -----
+
+### 3. Same class or inherit from - mandatory
+
+Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+
+* Prototype: def is_kind_of_class(obj, a_class):
+
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./3-main.py 
+
+1 comes from int
+
+1 comes from object
+
+-----
