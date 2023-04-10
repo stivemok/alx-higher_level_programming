@@ -1,9 +1,9 @@
 #!/usr/bin/pyhton3
-""" look up module: returns the list of available
-attributes and methods of an object
-"""
+""" look up module """
 
 
 def lookup(obj):
+    """ returns the list of available
+    attributes and methods of an object """
     list = (dir(obj))
     return list
