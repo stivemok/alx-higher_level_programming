@@ -159,3 +159,10 @@ True inherited from class int
 True inherited from class object
 
 ----
+
+### 5. Geometry module - mandatory
+Write an empty class BaseGeometry.
+
+* You are not allowed to import any module
+
+----
