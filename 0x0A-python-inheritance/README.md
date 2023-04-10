@@ -144,3 +144,18 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./3-ma
 1 comes from object
 
 -----
+
+### 4. Only sub class of - mandatory
+Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+
+* Prototype: def inherits_from(obj, a_class):
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./4-main.py 
+
+True inherited from class int
+
+True inherited from class object
+
+----
