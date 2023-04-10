@@ -107,8 +107,11 @@ Write a class MyList that inherits from list:
 
 ----
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./1-main.py 
+
 [1, 4, 2, 3, 5]
+
 [1, 2, 3, 4, 5]
+
 [1, 4, 2, 3, 5]
 
 ----
@@ -118,3 +121,9 @@ Write a function that returns True if the object is exactly an instance of the s
 
 * Prototype: def is_same_class(obj, a_class):
 * You are not allowed to import any module
+
+-----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./2-main.py 
+1 is an instance of the class int
+
+-----
