@@ -174,3 +174,17 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./5-ma
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
 
 ----
+
+### 6. Improve Geometry - mandatory
+Write a class BaseGeometry (based on 5-base_geometry.py).
+
+* Public instance method: def area(self): that raises an Exception with the message area() is not implemented
+
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./6-main.py
+
+[Exception] area() is not implemented
+
+----
