@@ -254,3 +254,21 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./10-m
 169
 
 ----
+
+### 11. Square #2 - mandatory
+Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py).
+
+* Instantiation with size: def __init__(self, size)::
+  * size must be private. No getter or setter
+  * size must be a positive integer, validated by integer_validator
+* the area() method must be implemented
+* print() should print, and str() should return, the square description: [Square] <width>/<height>
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./11-main.py
+
+[Square] 13/13
+
+169
+
+----
