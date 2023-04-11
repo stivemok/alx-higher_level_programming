@@ -211,11 +211,11 @@ Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
 
 ----
 
-root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./8-main.py 
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./8-main.py
 
-<8-rectangle.Rectangle object at 0x7f22bea7a880>
+<8-rectangle.Rectangle object at 0x7f1c0bd32880>
 
-['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'area', 'height', 'integer_validator']
+['_Rectangle__height', '_Rectangle__width', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'area', 'integer_validator']
 
 [AttributeError] 'Rectangle' object has no attribute 'width'
 
@@ -235,5 +235,22 @@ Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (t
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./9-main.py 
 [Rectangle] 3/5
 15
+
+----
+
+### 10. Square #1 - mandatory
+Write a class Square that inherits from Rectangle (9-rectangle.py):
+
+* Instantiation with size: def __init__(self, size)::
+  * size must be private. No getter or setter
+  * size must be a positive integer, validated by integer_validator
+* the area() method must be implemented
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./10-main.py
+
+[Rectangle] 13/13
+
+169
 
 ----
