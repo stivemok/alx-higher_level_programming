@@ -198,3 +198,29 @@ Write a function that writes an Object to a text file, using a JSON representati
 * You don’t need to manage file permission exceptions.
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./5-main.py
+
+[TypeError] Object of type set is not JSON serializable
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_list.json ; echo ""
+
+[1, 2, 3]
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_dict.json ; echo ""
+
+{"id": 12, "name": "John", "places": ["San Francisco", "Tokyo"], "is_active": true, "info": {"age": 36, "average": 3.14}}
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_set.json ; echo ""
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output#
+
+----
+### 6. Create object from a JSON file - mandatory
+Write a function that creates an Object from a “JSON file”:
+
+* Prototype: def load_from_json_file(filename):
+* You must use the with statement
+* You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+* You don’t need to manage file permissions / exceptions.
+
+----
