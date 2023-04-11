@@ -176,3 +176,25 @@ Write a function that returns an object (Python data structure) represented by a
 * You don’t need to manage exceptions if the JSON string doesn’t represent an object.
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./4-main.py
+
+[1, 2, 3]
+
+<class 'list'>
+
+{'is_active': True, 'info': {'age': 36, 'average': 3.14}, 'id': 12, 'name': 'John','places': ['San Francisco', 'Tokyo']}
+
+<class 'dict'>
+
+[JSONDecodeError] Expecting property name enclosed in double quotes: line 2 column 25 (char 25)
+
+----
+### 5. Save Object to a file - mandatory
+Write a function that writes an Object to a text file, using a JSON representation:
+
+* Prototype: def save_to_json_file(my_obj, filename):
+* You must use the with statement
+* You don’t need to manage exceptions if the object can’t be serialized.
+* You don’t need to manage file permission exceptions.
+
+----
