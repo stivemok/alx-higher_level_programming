@@ -73,9 +73,9 @@ All your tests should be executed by using this command: python3 -m doctest ./te
 
 All your modules should have a documentation (python3 -c \'print(\__import\__("my_module").\__doc\__)')
 
-All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All your classes should have a documentation (python3 -c \'print(\__import\__("my_module").MyClass.\__doc\__)')
 
-All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All your functions (inside and outside a class) should have a documentation (python3 -c \'print(\__import\__("my_module").my_function.\__doc\__)' and python3 -c \'print(\__import\__("my_module").MyClass.my_function.\__doc\__)')
 
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
@@ -130,3 +130,21 @@ Write a function that appends a string at the end of a text file (UTF8) and retu
 * You are not allowed to import any module
 
 -----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./2-main.py 
+24
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat file_append.txt 
+This School is so cool!
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./2-main.py 
+24
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat file_append.txt 
+This School is so cool!
+This School is so cool!
+
+----
+### 3. To JSON string - mandatory
+Write a function that returns the JSON representation of an object (string):
+
+* Prototype: def to_json_string(my_obj):
+* You don’t need to manage exceptions if the object can’t be serialized.
+
+----
