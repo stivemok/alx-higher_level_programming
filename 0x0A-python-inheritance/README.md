@@ -4,8 +4,11 @@
 ### Read or watch:
 
 [* Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
+
 [* Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
+
 [* Inheritance in Python](https://www.w3schools.com/python/python_inheritance.asp)
+
 [* Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
 ## General
@@ -207,13 +210,14 @@ Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
   * width and height must be positive integers, validated by integer_validator
 
 ----
+
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./8-main.py 
 
-<8-rectangle.Rectangle object at 0x7fbe25a00880>
+<8-rectangle.Rectangle object at 0x7f22bea7a880>
 
-['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'area', 'height', 'integer_validator', 'width']
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'area', 'height', 'integer_validator']
 
-Rectangle: 3 - 5
+[AttributeError] 'Rectangle' object has no attribute 'width'
 
 [TypeError] height must be an integer
 
