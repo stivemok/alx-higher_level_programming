@@ -295,3 +295,10 @@ Write a function that adds a new attribute to an object if it’s possible:
 * You are not allowed to import any module
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./101-main.py
+
+John
+
+[TypeError] can't add new attribute
+
+----
