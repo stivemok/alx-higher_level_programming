@@ -198,3 +198,23 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./7-ma
 [ValueError] distance must be greater than 0
 
 -----
+
+### 8. Rectangle - mandatory
+Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
+
+* Instantiation with width and height: def __init__(self, width, height):
+  * width and height must be private. No getter or setter
+  * width and height must be positive integers, validated by integer_validator
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./8-main.py 
+
+<8-rectangle.Rectangle object at 0x7fbe25a00880>
+
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'area', 'height', 'integer_validator', 'width']
+
+Rectangle: 3 - 5
+
+[TypeError] height must be an integer
+
+----
