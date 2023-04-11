@@ -12,7 +12,7 @@
 
 [* Learn to Program 8 : Reading / Writing Files](https://www.youtube.com/watch?v=EukxMIsNeqU)
 
-[* Automate the Boring Stuff with Python(ch.8&14)](https://automatetheboringstuff.com/)
+[* Automate the Boring Stuff with Python(ch.8 p 180-183 & ch.14 p 326-333)](https://automatetheboringstuff.com/)
 
 ## General
 Why Python programming is awesome
@@ -59,7 +59,7 @@ All your files must be executable
 
 The length of your files will be tested using wc
 
-Python Test Cases
+### Python Test Cases
 
 Allowed editors: vi, vim, emacs
 
@@ -71,7 +71,7 @@ All your test files should be text files (extension: .txt)
 
 All your tests should be executed by using this command: python3 -m doctest ./tests/*
 
-All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All your modules should have a documentation (python3 -c \'print(\__import\__("my_module").\__doc\__)')
 
 All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 
@@ -99,3 +99,34 @@ focus on building reliable applications and scalable systems, take on real-world
 A school every software engineer would have dreamt of!
 
 ----
+### 1. Write to a file - mandatory
+Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
+
+* Prototype: def write_file(filename="", text=""):
+* You must use the with statement
+* You don’t need to manage file permission exceptions.
+* Your function should create the file if doesn’t exist.
+* Your function should overwrite the content of the file if it already exists.
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./1-main.py 
+
+24
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_first_file.txt
+
+This School is so cool!
+
+----
+
+### 2. Append to a file - mandatory
+Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:
+
+* Prototype: def append_write(filename="", text=""):
+* If the file doesn’t exist, it should be created
+* You must use the with statement
+* You don’t need to manage file permission or file doesn't exist exceptions.
+* You are not allowed to import any module
+
+-----
