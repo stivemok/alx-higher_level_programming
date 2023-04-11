@@ -224,3 +224,30 @@ Write a function that creates an Object from a “JSON file”:
 * You don’t need to manage file permissions / exceptions.
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_list.json ; echo ""
+
+[1, 2, 3]
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_dict.json ; echo ""
+
+{"id": 12, "name": "John", "places": ["San Francisco", "Tokyo"], "is_active": true, "info": {"age": 36, "average": 3.14}}
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat my_fake.json ; echo ""
+
+{"is_active": true, 12 }
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./6-main.py 
+
+[1, 2, 3]
+
+<class 'list'>
+
+{'id': 12, 'name': 'John', 'places': ['San Francisco', 'Tokyo'], 'is_active': True, 'info': {'age': 36, 'average': 3.14}}
+
+<class 'dict'>
+
+[FileNotFoundError] [Errno 2] No such file or directory: 'my_set_doesnt_exist.json'
+
+[JSONDecodeError] Expecting property name enclosed in double quotes: line 1 column 21 (char 20)
+
+----
