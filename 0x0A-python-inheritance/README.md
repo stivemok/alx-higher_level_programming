@@ -1,15 +1,11 @@
 # 0x0A. Python - Inheritance
 
 ## Resources
-
 ### Read or watch:
 
 [* Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
-
 [* Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
-
 [* Inheritance in Python](https://www.w3schools.com/python/python_inheritance.asp)
-
 [* Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
 ## General
@@ -84,9 +80,7 @@ Do not use the words import or from inside your comments, the checker will think
 Write a function that returns the list of available attributes and methods of an object:
 
 * Prototype: def lookup(obj):
-
 * Returns a list object
-
 * You are not allowed to import any module
 
 ----
@@ -100,9 +94,7 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./0-ma
 Write a class MyList that inherits from list:
 
 * Public instance method: def print_sorted(self): that prints the list, but sorted (ascending sort)
-
 * You can assume that all the elements of the list will be of type int
-
 * You are not allowed to import any module
 
 ----
@@ -129,11 +121,9 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./2-ma
 -----
 
 ### 3. Same class or inherit from - mandatory
-
 Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 
 * Prototype: def is_kind_of_class(obj, a_class):
-
 * You are not allowed to import any module
 
 ----
@@ -179,7 +169,6 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./5-ma
 Write a class BaseGeometry (based on 5-base_geometry.py).
 
 * Public instance method: def area(self): that raises an Exception with the message area() is not implemented
-
 * You are not allowed to import any module
 
 ----
@@ -188,3 +177,24 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./6-ma
 [Exception] area() is not implemented
 
 ----
+
+### 7. Integer validator - mandatory
+Write a class BaseGeometry (based on 6-base_geometry.py).
+
+* Public instance method: def area(self): that raises an Exception with the message area() is not implemented
+* Public instance method: def integer_validator(self, name, value): that validates value:
+  * you can assume name is always a string
+  * if value is not an integer: raise a TypeError exception, with the message <name> must be an integer
+  * if value is less or equal to 0: raise a ValueError exception with the message <name> must be greater than 0
+* You are not allowed to import any module
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0A-python-inheritance# ./7-main.py
+
+[TypeError] name must be an integer
+
+[ValueError] age must be greater than 0
+
+[ValueError] distance must be greater than 0
+
+-----
