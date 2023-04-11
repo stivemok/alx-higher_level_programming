@@ -251,3 +251,26 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./6-m
 [JSONDecodeError] Expecting property name enclosed in double quotes: line 1 column 21 (char 20)
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat add_item.json
+
+cat: add_item.json: No such file or directory
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./7-add_item.py
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat add_item.json ; echo ""
+
+[]
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./7-add_item.py Best School
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat add_item.json ; echo ""
+
+["Best", "School"]
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./7-add_item.py 89 Python C
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat add_item.json ; echo ""
+
+["Best", "School", "89", "Python", "C"]
+
+----
