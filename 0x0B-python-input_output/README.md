@@ -131,13 +131,21 @@ Write a function that appends a string at the end of a text file (UTF8) and retu
 
 -----
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./2-main.py 
+
 24
+
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat file_append.txt 
+
 This School is so cool!
+
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./2-main.py 
+
 24
+
 root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat file_append.txt 
+
 This School is so cool!
+
 This School is so cool!
 
 ----
@@ -146,5 +154,25 @@ Write a function that returns the JSON representation of an object (string):
 
 * Prototype: def to_json_string(my_obj):
 * You don’t need to manage exceptions if the object can’t be serialized.
+
+----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./3-main.py
+
+[1, 2, 3]
+
+<class 'str'>
+
+{"id": 12, "name": "John", "places": ["San Francisco", "Tokyo"], "is_active": true, "info": {"age": 36, "average": 3.14}}
+
+<class 'str'>
+
+[TypeError] Object of type set is not JSON serializable
+
+----
+### 4. From JSON string to Object - mandatory
+Write a function that returns an object (Python data structure) represented by a JSON string:
+
+* Prototype: def from_json_string(my_str):
+* You don’t need to manage exceptions if the JSON string doesn’t represent an object.
 
 ----
