@@ -274,3 +274,47 @@ root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat a
 ["Best", "School", "89", "Python", "C"]
 
 ----
+### 8. Class to JSON - mandatory
+Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
+
+* Prototype: def class_to_json(obj):
+* obj is an instance of a Class
+* All attributes of the obj Class are serializable: list, dictionary, string, integer and boolean
+* You are not allowed to import any module
+
+-----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./8-main.py 
+
+<class '8-my_class.MyClass'>
+
+[MyClass] John - 89
+
+<class 'dict'>
+
+{'name': 'John', 'number': 89}
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./8-main_2.py 
+
+<class '8-my_class_2.MyClass'>
+
+[MyClass] John - 4 => 1
+
+<class 'dict'>
+
+{'_MyClass__name': 'John', 'number': 4, 'is_team_red': True, 'score': 1}
+
+----
+### 9. Student to JSON - mandatory
+Write a class Student that defines a student by:
+
+* Public instance attributes:
+  * first_name
+  * last_name
+  * age
+* Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age):
+
+* Public method def to_json(self): that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py)
+
+* You are not allowed to import any module
+
+----
