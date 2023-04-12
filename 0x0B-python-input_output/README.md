@@ -434,3 +434,66 @@ Create a function def pascal_triangle(n): that returns a list of lists of intege
 * You are not allowed to import any module
 
 -----
+### 13. Search and update - advanced
+Write a function that inserts a line of text to a file, after each line containing a specific string (see example):
+
+* Prototype: def append_after(filename="", search_string="", new_string=""):
+* You must use the with statement
+* You don’t need to manage file permission or file doesn't exist exceptions.
+* You are not allowed to import any module
+
+-----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./100-main.py 
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat append_after_100.txt 
+
+At Holberton School,
+
+Python is really important,
+
+"C is fun!"
+
+But it can be very hard if:
+
+- You don't get all Pythonic tricks
+
+"C is fun!"
+
+- You don't have strong C knowledge.
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./100-main.py 
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat append_after_100.txt 
+
+At Holberton School,
+
+Python is really important,
+
+"C is fun!"
+
+"C is fun!"
+
+But it can be very hard if:
+
+- You don't get all Pythonic tricks
+
+"C is fun!"
+
+"C is fun!"
+
+- You don't have strong C knowledge.
+
+-----
+### 14. Log parsing - advanced
+Write a script that reads stdin line by line and computes metrics:
+
+* Input format: <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>
+* Each 10 lines and after a keyboard interruption (CTRL + C), prints those statistics since the beginning:
+  * Total file size: File size: <total size>
+  * where is the sum of all previous (see input format above)
+  * Number of lines by status code:
+   * possible status code: 200, 301, 400, 401, 403, 404, 405 and 500
+   * if a status code doesn’t appear, don’t print anything for this status code
+   * format: <status code>: <number>
+   * status codes should be printed in ascending order
+-----
