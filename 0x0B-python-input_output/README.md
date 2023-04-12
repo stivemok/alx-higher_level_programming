@@ -384,3 +384,53 @@ Write a class Student that defines a student by: (based on 10-student.py)
 Now, you have a simple implementation of a serialization and deserialization mechanism (concept of representation of an object to another format, without losing any information and allow us to rebuild an object based on this representation)
 
 ----
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# ./11-main.py student.json
+
+Initial student:
+
+<11-student.Student object at 0x7fde72e6b880>
+
+<class '11-student.Student'>
+
+<class 'dict'>
+
+John Doe 23
+
+{"first_name": "John", "last_name": "Doe", "age": 23}
+
+Saved to disk
+
+Fake student:
+
+<11-student.Student object at 0x7fde72e6b5e0>
+
+<class '11-student.Student'>
+
+Fake Fake 89
+
+Load dictionary from file:
+
+<11-student.Student object at 0x7fde72e6b5e0>
+
+<class '11-student.Student'>
+
+John Doe 23
+
+root@e000a5a9f6d4:~/alx-higher_level_programming/0x0B-python-input_output# cat student.json ; echo ""
+
+{"first_name": "John", "last_name": "Doe", "age": 23}
+
+-----
+### 12. Pascal's Triangle - mandatory
+Technical interview preparation:
+
+* You are not allowed to google anything
+* Whiteboard first
+
+Create a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+
+* Returns an empty list if n <= 0
+* You can assume n will be always an integer
+* You are not allowed to import any module
+
+-----
