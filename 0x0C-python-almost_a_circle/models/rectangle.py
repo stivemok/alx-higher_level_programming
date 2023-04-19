@@ -92,11 +92,11 @@ class Rectangle(Base):
                 elif i == 1:
                     self.width = args[1]
                 elif i == 2:
-                    self.height == args[2]
+                    self.height = args[2]
                 elif i == 3:
-                    self.x == args[3]
+                    self.x = args[3]
                 elif i == 4:
-                    self.y == args[4]
+                    self.y = args[4]
         else:
             if len(kwargs) >= 1:
                 keys = kwargs.keys()
