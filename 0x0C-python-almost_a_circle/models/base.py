@@ -2,7 +2,6 @@
 """ Base module"""
 import json
 import csv
-import turtle
 
 
 class Base:
@@ -34,8 +33,8 @@ class Base:
         """writes the json string representation of list_objs to a file"""
         filename = "{}.json".format(cls.__name__)
         list_dic = []
-        if list_objs is None:
-            jsonfile.write("[]")
+        if not list_objs:
+            pass
         else:
             for i in range(len(list_objs)):
                 list_dic.append(list_objs[i].to_dictionary())
