@@ -34,7 +34,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 [*Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
 
-[SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
+[* SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
 
 [*SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 ## General
@@ -97,9 +97,9 @@ $ sudo pip3 install mysqlclient
 
 $ python3
 
->>> import MySQLdb
+\>\>\> import MySQLdb
 
->>> MySQLdb.version_info
+\>\>\> MySQLdb.version_info
 
 (2, 0, 3, 'final', 0)
 ## Install SQLAlchemy module version 1.4.x
@@ -109,8 +109,8 @@ $ sudo pip3 install SQLAlchemy
 
 $ python3
 
->>> import sqlalchemy
+\>\>\> import sqlalchemy
 
->>> sqlalchemy.\_\_version\_\_
+\>\>\> sqlalchemy.\_\_version\_\_
 
 '1.4.22'
