@@ -11,7 +11,7 @@ if __name__ == "__main__":
     """create cursor for operating the database"""
     cursor = db.cursor()
     """execute a sql sentence to list names starting with N"""
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id ASC")
     """get record/fill cursor"""
     rows = cursor.fetchall()
     """print rows"""
