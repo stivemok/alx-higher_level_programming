@@ -14,7 +14,8 @@ if __name__ == "__main__":
     """create cursor for operating the database"""
     cursor = db.cursor()
     """execute a sql sentence"""
-    cursor.execute("SELECT * FROM states WHERE name LIKE '{:s}'\
+    cursor.execute("SELECT * FROM states \
+    WHERE BINARY name LIKE '{:s}' \
     ORDER BY id ASC".format(argv[4]))
     """get record/fill cursor"""
     rows = cursor.fetchall()
