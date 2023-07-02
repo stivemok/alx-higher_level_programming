@@ -6,7 +6,7 @@ import sys
 import requests
 
 if __name__ == '__main__':
-resp = requests.get('https://api.github.com/user',
+    resp = requests.get('https://api.github.com/user',
                     auth=HTTPBasicAuth(sys.argv[1], sys.argv[2]))
-json = resp.json()
-print('{}'.format(json.get('id')))
+    json = resp.json()
+    print('{}'.format(json.get('id')))
