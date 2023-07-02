@@ -14,7 +14,7 @@ if __name__ == "__main__":
     try:
         response = resp.json()
         if response:
-            print('[{}] {}'.format(response.get('name')))
+            print('[{}] {}'.format(response.get('id', response.get('name')))
         else:
             print('No result')
     except Exception:
