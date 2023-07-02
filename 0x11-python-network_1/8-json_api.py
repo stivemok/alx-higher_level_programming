@@ -12,9 +12,9 @@ if __name__ == "__main__":
         letter = ''
     resp = requests.post('http://0.0.0.0:5000/search_user', data={'q': letter})
     try:
-        response = resp.json()
-        if response:
-            print('[{}] {}'.format(response.get('id', response.get('name')))
+        result = resp.json()
+        if result:
+            print('[{}] {}'.format(result.get('id'), result.get('name')))
         else:
             print('No result')
     except Exception:
